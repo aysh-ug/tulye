@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tulye</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=RobotoDraft' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <link rel="stylesheet" href="css/w3-colors-highway.css">
+    <link rel="stylesheet" href="css/w3-colors-vivid.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="webfonts/fa-solid-900.woff">
+    <link rel="stylesheet" href="webfonts/fa-solid-900.woff2">
+</head>
+
+<body class="w3-padding-0 w3-text-light-grey">
+    <div class="w3-center header w3-container">
+        <img src="images/tulye.png" class="w3-image w3-third w3-left " />
+
+        <div id="call" class="w3-twothird">
+            <div class="w3-half">
+                <h3 class="w3-text-orange">To Order</h3>
+                <p class="w3-margin-0">Call: <a href="Tel:0773913902">0773913902</a></p>
+                <p class="w3-margin-0">Call: <a href="Tel:0704678948">0704678948</a></p>
+            </div>
+            <div class="w3-half">
+                <p class="w3-text-yellow dy">Today : <i class="w3-text-white" id="tday"></i> <i class="w3-text-light-blue" id="tmonth"></i> <i class="w3-text-white" id="tyear"></i>
+                    <script>
+                        var d = new Date();
+                        document.getElementById("tday").innerHTML = d.getDate();
+                        var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+                        document.getElementById("tmonth").innerHTML = months[d.getMonth()];
+                        document.getElementById("tyear").innerHTML = d.getFullYear();
+                    </script>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="w3-row">
+        <div class="w3-half kaiso w3-card-2 w3-padding">
+            <h2 class="w3-text-bold w3-text-light-green">Kaiso Rice</h2>
+            <div class="w3-row">
+                <div class="w3-col   l4 w3-center   w3-padding w3-white w3-margin-bottom">
+                    <h2 class=" w3-text-bold"><i class="w3-text-indigo">1 Kg</i> </h2>
+                    <h3 class="w3-yellow w3-padding w3-text-bold">UgX 2,200</h3>
+
+
+                </div>
+                <div class="w3-col   l4 w3-center   w3-padding w3-white w3-margin-bottom">
+                    <h2 class=" w3-text-bold"><i class="w3-text-indigo">10 Kg</i> </h2>
+                    <h3 class="w3-yellow w3-padding w3-text-bold">UgX 20,000</h3>
+
+
+
+                </div>
+
+                <div class="w3-col    l4 w3-center   w3-padding w3-white w3-margin-bottom">
+                    <h2 class=" w3-text-bold"><i class="w3-text-indigo">100 Kg</i> </h2>
+                    <h3 class="w3-yellow w3-padding w3-text-bold">UgX 200,000</h3>
+
+
+
+                </div>
+                <script>
+                    function callus() {
+                        var r = confirm("Call 0773913902 ?");
+                        if (r == true) {
+                            Tel: 0773913902;
+                        }
+                        else {
+                            return null;
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+
+
+        <div class="w3-half super w3-card-2 w3-padding">
+            <h2 class="w3-text-bold">Super Rice</h2>
+            <div class="w3-row">
+                <div class="w3-col   l4 w3-center   w3-padding w3-white w3-margin-bottom">
+                    <h2 class=" w3-text-bold"><i class="w3-text-indigo">1 Kg</i> </h2>
+                    <h3 class="w3-pale-red w3-padding w3-text-bold">UgX 2,800</h3>
+
+
+                </div>
+                <div class="w3-col   l4 w3-center   w3-padding w3-white w3-margin-bottom">
+                    <h2 class=" w3-text-bold"><i class="w3-text-indigo">10 Kg</i> </h2>
+                    <h3 class="w3-pale-red w3-padding w3-text-bold">UgX 27,000</h3>
+
+
+
+                </div>
+
+                <div class="w3-col    l4 w3-center   w3-padding w3-white w3-margin-bottom">
+                    <h2 class=" w3-text-bold"><i class="w3-text-indigo">100 Kg</i> </h2>
+                    <h3 class="w3-pale-red w3-padding w3-text-bold">UgX 270,000</h3>
+
+
+
+                </div>
+                <script>
+                    function callus() {
+                        var r = confirm("Call 0773913902 ?");
+                        if (r == true) {
+                            Tel: 0773913902;
+                        }
+                        else {
+                            return null;
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+body {
+    background-image: linear-gradient(to bottom right, #242322 0% 65%, #020202 95% 100%);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.header img {
+    width: 20%
+}
+
+.dy i {
+    font-style: normal;
+    ;
+}
+
+.w3-text-bold {
+    font-weight: bold;
+}
+
+.kaiso {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.super {
+    background-color: rgba(83, 5, 5, 0.3) !important;
+}
+
+.btn {
+    color: var(--nav-text-color);
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 20px;
+    width: 180px;
+    padding: 3px 5px;
+    display: flex;
+    align-items: center;
+    margin: 0px auto !important;
+    justify-content: center;
+    user-select: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: all 150ms ease-out;
+}
+
+.btn-open {
+    background-color: #04418b;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5), 0 0 0 rgba(0, 0, 0, 0.3) inset;
+}
+
+@media (min-width: 768px) {
+    .l4 {
+        margin-right: 10px !important;
+    }
+}
